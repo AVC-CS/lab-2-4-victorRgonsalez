@@ -4,7 +4,9 @@ def main():
     ##################################################
     # Comlete your code here
     ##################################################
-
+    sub1 = str(original_str.split(' ')[0])
+    sub2 = str(original_str.split(' ')[1])
+    merged_str = f'{sub2} {sub1}'
     print(sub2)
     print(sub1)
     print(merged_str)
